@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    background-color: rgb(177, 177, 177);
+   
+}
+.container{ width: 80%;
+    height: 80px;
+    padding: 25px;
+    display: flex;
+}
+.menubar{
+    margin-left: auto;
+    margin-right: 5px;
+}
+.menubar ul{
+    display: flex;
+}
+.menubar ul li{
+    list-style-type: none;
+    padding: 5px;
+    margin-left: 30px;
+ 
+}
+.menubar ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: rgba(48, 45, 45, 0.767);
+}
+
+.menubar ul li:hover,.active{
+    border-bottom: 3.5px solid rgb(75, 75, 255);
+    
+
+}
+
+
+footer{
+    height: 300px;
+    width: 100%;
+    background-color: rgb(17, 8, 8);
+    margin: 20px 0px;
+}
+.footer-container{display: flex;
+    flex-wrap: wrap;
+    padding: 5px;
+}
+.footer-col{
+   width:25% ;
+   padding: 45px;
+    
+}
+.footer-col  li {
+    list-style-type: none;
+    margin: 10px 0;
+
+}
+.footer-col li a{
+    text-decoration:none;
+    color: rgb(114, 119, 122);
+    text-transform: capitalize;
+  
+    
+  
+}
+h4{align-items: center;
+    color: #c2bfbf;
+    text-transform:capitalize;
+    font-size: 16px;
+}
+.footer-col li a:hover{
+    border-bottom: 2px solid rgb(163, 7, 7);
+}
+.cpyright{
+    color: rgb(85, 95, 95);
+    font-weight: 500;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    margin-left: 38%;
+    margin-top: 30px;
+}
+.follow-icon{
+    display: inline-flex;
+    margin:10px auto;
+}
+.fa-brands{
+    color: rgb(104, 154, 197);
+    height: 20px;
+    width: 20px;
+   
+}
+h1{
+   margin-left: 20px;
+}
+.main-para{
+    font-family:cursive;
+    font-size:14px;
+    padding: 20px;
+
+}
+.card-container{
+    height: 400px;
+    width: 100%;
+    background-color:;
+    display:grid;
+    grid-template-columns: 1fr 2fr 2fr;
+    gap: 2px;
+    padding: 5px;
+    
+}
+.blog-card{
+    height: 350px;
+    width: 300px;
+    
+    padding: px;
+    margin: 10px 20px;
+   background-color: #ffff;
+   border-radius: 7px;
+   border: 1px solid grey;
+   overflow: hidden;
+   box-shadow: 8px 11px 25px 5px #c4c2c2;
+   
+}
+.card-para{
+    font-family: cursive;
+    font-size: 12px;
+    line-height:1.5;
+    padding: 2px;
+    margin: 7px 5px;
+
+}
+.card-btn{
+    height: 30px;
+    width: 120px;
+    
+    margin:5px 5px ;
+    padding: 5px;
+    background-color: ;
+    
+    border-radius: 5px;
+}
+.card-btn a{
+    color: black;
+    text-decoration: none;
+}
+.card-btn:hover{
+    background-color: rgb(85, 84, 84);
+}
+.card-btn:hover>a{
+    color: aqua;
+}
+.see-all{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin: 10px 30px;
+    
+}
